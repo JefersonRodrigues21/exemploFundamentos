@@ -7,12 +7,12 @@ namespace exemploFundamentos.Models
 {
     public class Pessoa
     {
-        public string Nome { get; set; }
-        public int Idade { get; set; }
+        public required string Nome { get; set; } //required foi inserido por causa do nome com erro
+        public int Idade { get; set; } //get(pega valor), set(atribui valor)
 
         public void Apresentar()
         {
-            Console.WriteLine($"Olá, meu nome é {Nome}, e tenho {Idade} anos");
+            Console.WriteLine($"Olá, meu nome é {Nome}, e tenho {Idade} anos");//console(classe), writeline(método)
         }
     }
 }
