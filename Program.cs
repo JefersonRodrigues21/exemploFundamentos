@@ -1,16 +1,30 @@
 ﻿using exemploFundamentos.Models;
 
-int quantidadeEmEstoque = 10;
-int quantidadeCompra = 11;
+Console.WriteLine("Digite uma letra");
+string letra = Console.ReadLine();
 
-if (quantidadeEmEstoque >= quantidadeCompra)
-{
-    Console.WriteLine("Venda realizada.");
-}
-else
-{
-    Console.WriteLine("Desculpe. Não temos a quantidade desejada.");
-}
+//---------------------------------------------------------------------------------------
+// if, else, else if
+// int quantidadeEmEstoque = 10;
+// int quantidadeCompra = 0;
+// bool possivelVenda = quantidadeCompra > 0 && quantidadeEmEstoque >= quantidadeCompra;
+
+// Console.WriteLine($"Quantidade em estoque: {quantidadeEmEstoque}");
+// Console.WriteLine($"Quantidade compra: {quantidadeCompra}");
+// Console.WriteLine($"É possível realizar a venda? {possivelVenda}");
+
+// if (quantidadeCompra <= 0)
+// {
+//     Console.WriteLine("Venda não realizada!");
+// }
+// else if (possivelVenda)
+// {
+//     Console.WriteLine("Venda realizada.");
+// }
+// else
+// {
+//     Console.WriteLine("Desculpe. Não temos a quantidade desejada.");
+// }
 
 //-------------------------------------------------------------------------
 // string a = "15";
