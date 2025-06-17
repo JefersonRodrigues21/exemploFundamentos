@@ -1,7 +1,19 @@
 ﻿using exemploFundamentos.Models;
 
+bool possuiPresencaMinima = true;
+double media = 8.5;
 
-bool maiorDeIdade = false;
+if (possuiPresencaMinima && media >= 7) //operador "e"
+{
+    Console.WriteLine("Aprovado");
+}
+else
+{
+    Console.WriteLine("Reprovado");
+}
+
+//------------------------------------------------------------------------
+/*bool maiorDeIdade = false;
 bool possuiAutorizacaoDoResponsavel = true;
 
 if (maiorDeIdade || possuiAutorizacaoDoResponsavel) //operador OR
@@ -11,7 +23,7 @@ if (maiorDeIdade || possuiAutorizacaoDoResponsavel) //operador OR
 else
 {
     Console.WriteLine("Entrada não liberada");
-}
+}*/
 
 //-----------------------------------------------------------------------
 /*Console.WriteLine("Digite uma letra");
