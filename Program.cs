@@ -1,24 +1,24 @@
 ﻿using exemploFundamentos.Models;
 
-int numeroIncremento = 10;
+// int numeroIncremento = 10;
 
-Console.WriteLine(numeroIncremento);
+// Console.WriteLine(numeroIncremento);
 
-Console.WriteLine("Incrementando o 10");
-numeroIncremento++;
+// Console.WriteLine("Incrementando o 10");
+// numeroIncremento++;
 
-Console.WriteLine(numeroIncremento);
+// Console.WriteLine(numeroIncremento);
 
-int numeroDecremento = 20;
-Console.WriteLine("Decremento 0 20");
-numeroDecremento--;
+// int numeroDecremento = 20;
+// Console.WriteLine("Decremento 0 20");
+// numeroDecremento--;
 
-Console.WriteLine(numeroDecremento);
+// Console.WriteLine(numeroDecremento);
 
 //---------------------------------------------------------------------
-/*Calculadora calc = new Calculadora();
+Calculadora calc = new Calculadora();
 
-calc.Add(10, 30);
+/*calc.Add(10, 30);
 calc.Subtract(10, 30);
 calc.Multiply(10, 2);
 calc.divide(20 , 2);
@@ -27,6 +27,7 @@ calc.Potencia(3, 3);*/
 /*calc.Seno(30);
 calc.Cosseno(30);
 calc.Tangente(30);*/
+calc.RaizQuadrada(9);
 
 //-----------------------------------------------------------------------
 /*bool choveu = false;
