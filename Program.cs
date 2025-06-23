@@ -1,6 +1,26 @@
 ﻿using exemploFundamentos.Models;
 
-bool possuiPresencaMinima = true;
+Calculadora calc = new Calculadora();
+
+calc.Add(10, 30);
+calc.Subtract(10, 30);
+calc.Multiply(10, 2);
+calc.divide(20 , 2);
+calc.Potencia(3, 3);
+//-----------------------------------------------------------------------
+/*bool choveu = false;
+bool estaTarde = false;
+
+if (!choveu && !estaTarde)
+{
+    Console.WriteLine("Vou pedalar.");
+}
+else
+{
+    Console.WriteLine("Vou pedalar um outro dia!");
+}*/
+
+/*bool possuiPresencaMinima = true;
 double media = 8.5;
 
 if (possuiPresencaMinima && media >= 7) //operador "e"
@@ -10,7 +30,7 @@ if (possuiPresencaMinima && media >= 7) //operador "e"
 else
 {
     Console.WriteLine("Reprovado");
-}
+}*/
 
 //------------------------------------------------------------------------
 /*bool maiorDeIdade = false;
