@@ -1,6 +1,6 @@
 ﻿using exemploFundamentos.Models;
 
-int numero = 2;
+int numero = 2; //TABUADA
 
 for (int contador = 0; contador <= 10; contador++)
 {
