@@ -1,5 +1,13 @@
 ﻿using exemploFundamentos.Models;
 
+int numero = 2;
+
+for (int contador = 0; contador <= 10; contador++)
+{
+    Console.WriteLine($"{numero} x {contador} = {numero * contador}");
+}
+
+//---------------------------------------------
 // int numeroIncremento = 10;
 
 // Console.WriteLine(numeroIncremento);
@@ -16,7 +24,7 @@
 // Console.WriteLine(numeroDecremento);
 
 //---------------------------------------------------------------------
-Calculadora calc = new Calculadora();
+//Calculadora calc = new Calculadora();
 
 /*calc.Add(10, 30);
 calc.Subtract(10, 30);
@@ -27,7 +35,7 @@ calc.Potencia(3, 3);*/
 /*calc.Seno(30);
 calc.Cosseno(30);
 calc.Tangente(30);*/
-calc.RaizQuadrada(9);
+//calc.RaizQuadrada(9);
 
 //-----------------------------------------------------------------------
 /*bool choveu = false;
