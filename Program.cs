@@ -1,18 +1,73 @@
 ﻿using exemploFundamentos.Models;
 
-int numero = 2;
-int contador = 1;
+string opcao;
 
-while (contador <= 10)
+while (true)
 {
-    Console.WriteLine($"{contador}º Execução: {numero} x {contador} = {numero * contador}");
-    contador++;
+    Console.WriteLine("Digite uma opção:");
+    Console.WriteLine("1 - Cadastrar cliente");
+    Console.WriteLine("2 - Buscar cliente");
+    Console.WriteLine("3 - Apagar cliente");
+    Console.WriteLine("4 - Encerrar");
 
-    if (contador == 6)
+    opcao = Console.ReadLine();
+
+    switch (opcao)
     {
-        break; // Interrompe o loop quando contador for igual a 6
+        case "1":
+            Console.WriteLine("Cadastro de Cliente");
+            break;
+
+        case "2":
+            Console.WriteLine("Busca de Cliente");
+            break;
+
+        case "3":
+            Console.WriteLine("Apagar Cliente");
+            break;
+
+        case "4":
+            Console.WriteLine("Encerrar");
+            Environment.Exit(0); // Encerra o programa
+            break;
+
+        default:
+            Console.WriteLine("Opção inválida");
+            break;
     }
 }
+
+
+//----Sintaxe do While------------------------------------------
+
+// int soma = 0, numero = 0;
+
+// do
+// {
+//     Console.WriteLine("Digite um número:");
+//     numero = Convert.ToInt32(Console.ReadLine());
+
+//     soma += numero;
+
+// } while (numero != 0);
+
+// Console.WriteLine($"A soma dos números digitados é: {soma}");
+
+
+//-------Tabuada------------------------------------------------
+// int numero = 2;
+// int contador = 1;
+
+// while (contador <= 10)
+// {
+//     Console.WriteLine($"{contador}º Execução: {numero} x {contador} = {numero * contador}");
+//     contador++;
+
+//     if (contador == 6)
+//     {
+//         break; // Interrompe o loop quando contador for igual a 6
+//     }
+// }
 
 //----------------------------------------------------
 //int numero = 2; //TABUADA
