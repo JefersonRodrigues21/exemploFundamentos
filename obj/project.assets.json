@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jefer\\OneDrive\\Documentos\\estudo_dev\\Dio_me\\wex_end_to_end_engineering\\ExemploFundamentos\\exemploFundamentos.csproj",
+      "projectUniqueName": "C:\\Users\\jefer\\OneDrive\\Documentos\\estudo_dev\\Dio_me\\wex_end_to_end_engineering\\exemploFundamentos\\exemploFundamentos.csproj",
       "projectName": "exemploFundamentos",
-      "projectPath": "C:\\Users\\jefer\\OneDrive\\Documentos\\estudo_dev\\Dio_me\\wex_end_to_end_engineering\\ExemploFundamentos\\exemploFundamentos.csproj",
+      "projectPath": "C:\\Users\\jefer\\OneDrive\\Documentos\\estudo_dev\\Dio_me\\wex_end_to_end_engineering\\exemploFundamentos\\exemploFundamentos.csproj",
       "packagesPath": "C:\\Users\\jefer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jefer\\OneDrive\\Documentos\\estudo_dev\\Dio_me\\wex_end_to_end_engineering\\ExemploFundamentos\\obj\\",
+      "outputPath": "C:\\Users\\jefer\\OneDrive\\Documentos\\estudo_dev\\Dio_me\\wex_end_to_end_engineering\\exemploFundamentos\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jefer\\AppData\\Roaming\\NuGet\\NuGet.Config"

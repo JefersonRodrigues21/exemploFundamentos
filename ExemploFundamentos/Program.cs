@@ -1,47 +1,54 @@
-﻿using exemploFundamentos.Models;
+﻿using ExemploFundamentos.Common.Models;
 
-internal class Program
+Pessoa pessoa1 = new Pessoa
 {
-    private static void Main(string[] args)
-    {
-        string opcao;
+    Nome = "Jeferson",
+    Idade = 38
+};
+pessoa1.Apresentar();
 
-        while (true)
-        {
-            Console.WriteLine("Digite uma opção:");
-            Console.WriteLine("1 - Cadastrar cliente");
-            Console.WriteLine("2 - Buscar cliente");
-            Console.WriteLine("3 - Apagar cliente");
-            Console.WriteLine("4 - Encerrar");
+// internal class Program
+// {
+//     private static void Main(string[] args)
+//     {
+//         string opcao;
 
-            opcao = Console.ReadLine() ?? string.Empty;
+//         while (true)
+//         {
+//             Console.WriteLine("Digite uma opção:");
+//             Console.WriteLine("1 - Cadastrar cliente");
+//             Console.WriteLine("2 - Buscar cliente");
+//             Console.WriteLine("3 - Apagar cliente");
+//             Console.WriteLine("4 - Encerrar");
 
-            switch (opcao)
-            {
-                case "1":
-                    Console.WriteLine("Cadastro de Cliente");
-                    break;
+//             opcao = Console.ReadLine() ?? string.Empty;
 
-                case "2":
-                    Console.WriteLine("Busca de Cliente");
-                    break;
+//             switch (opcao)
+//             {
+//                 case "1":
+//                     Console.WriteLine("Cadastro de Cliente");
+//                     break;
 
-                case "3":
-                    Console.WriteLine("Apagar Cliente");
-                    break;
+//                 case "2":
+//                     Console.WriteLine("Busca de Cliente");
+//                     break;
 
-                case "4":
-                    Console.WriteLine("Encerrar");
-                    Environment.Exit(0); // Encerra o programa
-                    break;
+//                 case "3":
+//                     Console.WriteLine("Apagar Cliente");
+//                     break;
 
-                default:
-                    Console.WriteLine("Opção inválida");
-                    break;
-            }
-        }
-    }
-}
+//                 case "4":
+//                     Console.WriteLine("Encerrar");
+//                     Environment.Exit(0); // Encerra o programa
+//                     break;
+
+//                 default:
+//                     Console.WriteLine("Opção inválida");
+//                     break;
+//             }
+//         }
+//     }
+// }
 
 
 //----Sintaxe do While------------------------------------------
