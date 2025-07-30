@@ -1,6 +1,6 @@
 ﻿using ExemploFundamentos.Common.Models;
 
-Pessoa pessoa1 = new Pessoa
+Pessoa pessoa1 = new() // Instanciando um objeto da classe Pessoa
 {
     Nome = "Jeferson",
     Idade = 38

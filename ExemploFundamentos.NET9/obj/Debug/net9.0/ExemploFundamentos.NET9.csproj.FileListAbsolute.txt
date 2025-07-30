@@ -1,0 +1,15 @@
+C:\Users\jefer\OneDrive\Documentos\estudo_dev\Dio_me\wex_end_to_end_engineering\ExemploFundamentos\ExemploFundamentos.NET9\bin\Debug\net9.0\ExemploFundamentos.NET9.exe
+C:\Users\jefer\OneDrive\Documentos\estudo_dev\Dio_me\wex_end_to_end_engineering\ExemploFundamentos\ExemploFundamentos.NET9\bin\Debug\net9.0\ExemploFundamentos.NET9.deps.json
+C:\Users\jefer\OneDrive\Documentos\estudo_dev\Dio_me\wex_end_to_end_engineering\ExemploFundamentos\ExemploFundamentos.NET9\bin\Debug\net9.0\ExemploFundamentos.NET9.runtimeconfig.json
+C:\Users\jefer\OneDrive\Documentos\estudo_dev\Dio_me\wex_end_to_end_engineering\ExemploFundamentos\ExemploFundamentos.NET9\bin\Debug\net9.0\ExemploFundamentos.NET9.dll
+C:\Users\jefer\OneDrive\Documentos\estudo_dev\Dio_me\wex_end_to_end_engineering\ExemploFundamentos\ExemploFundamentos.NET9\bin\Debug\net9.0\ExemploFundamentos.NET9.pdb
+C:\Users\jefer\OneDrive\Documentos\estudo_dev\Dio_me\wex_end_to_end_engineering\ExemploFundamentos\ExemploFundamentos.NET9\obj\Debug\net9.0\ExemploFundamentos.NET9.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jefer\OneDrive\Documentos\estudo_dev\Dio_me\wex_end_to_end_engineering\ExemploFundamentos\ExemploFundamentos.NET9\obj\Debug\net9.0\ExemploFundamentos.NET9.AssemblyInfoInputs.cache
+C:\Users\jefer\OneDrive\Documentos\estudo_dev\Dio_me\wex_end_to_end_engineering\ExemploFundamentos\ExemploFundamentos.NET9\obj\Debug\net9.0\ExemploFundamentos.NET9.AssemblyInfo.cs
+C:\Users\jefer\OneDrive\Documentos\estudo_dev\Dio_me\wex_end_to_end_engineering\ExemploFundamentos\ExemploFundamentos.NET9\obj\Debug\net9.0\ExemploFundamentos.NET9.csproj.CoreCompileInputs.cache
+C:\Users\jefer\OneDrive\Documentos\estudo_dev\Dio_me\wex_end_to_end_engineering\ExemploFundamentos\ExemploFundamentos.NET9\obj\Debug\net9.0\ExemploFundamentos.NET9.sourcelink.json
+C:\Users\jefer\OneDrive\Documentos\estudo_dev\Dio_me\wex_end_to_end_engineering\ExemploFundamentos\ExemploFundamentos.NET9\obj\Debug\net9.0\ExemploFundamentos.NET9.dll
+C:\Users\jefer\OneDrive\Documentos\estudo_dev\Dio_me\wex_end_to_end_engineering\ExemploFundamentos\ExemploFundamentos.NET9\obj\Debug\net9.0\refint\ExemploFundamentos.NET9.dll
+C:\Users\jefer\OneDrive\Documentos\estudo_dev\Dio_me\wex_end_to_end_engineering\ExemploFundamentos\ExemploFundamentos.NET9\obj\Debug\net9.0\ExemploFundamentos.NET9.pdb
+C:\Users\jefer\OneDrive\Documentos\estudo_dev\Dio_me\wex_end_to_end_engineering\ExemploFundamentos\ExemploFundamentos.NET9\obj\Debug\net9.0\ExemploFundamentos.NET9.genruntimeconfig.cache
+C:\Users\jefer\OneDrive\Documentos\estudo_dev\Dio_me\wex_end_to_end_engineering\ExemploFundamentos\ExemploFundamentos.NET9\obj\Debug\net9.0\ref\ExemploFundamentos.NET9.dll
