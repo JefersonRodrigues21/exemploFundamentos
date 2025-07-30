@@ -1,21 +1,26 @@
 ﻿using ExemploFundamentos.Common.Models;
 
 
-int[] arrayInteiros = new int[3]; // Declaração de um array de inteiros com 3 posições
-arrayInteiros[0] = 72; // Atribuindo valor à primeira posição do array
-arrayInteiros[1] = 64; // Atribuindo valor à segunda posição do array
-arrayInteiros[2] = 50; // Atribuindo valor à terceira posição do array 
-//arrayInteiros[3] = 1; // Isso causará um erro de índice fora do intervalo, pois o array só tem 3 posições (0, 1, 2) 
+int[] arrayInteiros = new int[4]; // Declaração de um array de inteiros com 3 posições
+arrayInteiros[0] = 10; // Atribuindo valor à primeira posição do array
+arrayInteiros[1] = 15; // Atribuindo valor à segunda posição do array
+arrayInteiros[2] = 80; // Atribuindo valor à terceira posição do array 
+arrayInteiros[3] = 1; // Isso causará um erro de índice fora do intervalo, pois o array só tem 3 posições (0, 1, 2) 
 
+Console.WriteLine("Percorrendo o Array com For:");
 for (int contador = 0; contador < arrayInteiros.Length; contador++)
 {
     Console.WriteLine($"Posição Nº {contador} - {arrayInteiros[contador]}");
 }
 
 
-
-
-
+Console.WriteLine("Percorrendo o Array com Foreach:");
+int contadorForeach = 0;
+foreach (int valor in arrayInteiros)
+{
+    Console.WriteLine($"Posição Nº: {contadorForeach} - {valor}");
+    contadorForeach++;
+}
 
 
 // Pessoa pessoa1 = new() // Instanciando um objeto da classe Pessoa
