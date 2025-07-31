@@ -11,9 +11,9 @@ C:\Users\jefer\OneDrive\Documentos\estudo_dev\Dio_me\wex_end_to_end_engineering\
 C:\Users\jefer\OneDrive\Documentos\estudo_dev\Dio_me\wex_end_to_end_engineering\ExemploFundamentos\ExemploFundamentos\obj\Debug\net9.0\exemploFundamentos.AssemblyInfo.cs
 C:\Users\jefer\OneDrive\Documentos\estudo_dev\Dio_me\wex_end_to_end_engineering\ExemploFundamentos\ExemploFundamentos\obj\Debug\net9.0\exemploFundamentos.csproj.CoreCompileInputs.cache
 C:\Users\jefer\OneDrive\Documentos\estudo_dev\Dio_me\wex_end_to_end_engineering\ExemploFundamentos\ExemploFundamentos\obj\Debug\net9.0\exemploFundamentos.sourcelink.json
-C:\Users\jefer\OneDrive\Documentos\estudo_dev\Dio_me\wex_end_to_end_engineering\ExemploFundamentos\ExemploFundamentos\obj\Debug\net9.0\exemploF.F0A4FAAC.Up2Date
 C:\Users\jefer\OneDrive\Documentos\estudo_dev\Dio_me\wex_end_to_end_engineering\ExemploFundamentos\ExemploFundamentos\obj\Debug\net9.0\exemploFundamentos.dll
 C:\Users\jefer\OneDrive\Documentos\estudo_dev\Dio_me\wex_end_to_end_engineering\ExemploFundamentos\ExemploFundamentos\obj\Debug\net9.0\refint\exemploFundamentos.dll
 C:\Users\jefer\OneDrive\Documentos\estudo_dev\Dio_me\wex_end_to_end_engineering\ExemploFundamentos\ExemploFundamentos\obj\Debug\net9.0\exemploFundamentos.pdb
 C:\Users\jefer\OneDrive\Documentos\estudo_dev\Dio_me\wex_end_to_end_engineering\ExemploFundamentos\ExemploFundamentos\obj\Debug\net9.0\exemploFundamentos.genruntimeconfig.cache
 C:\Users\jefer\OneDrive\Documentos\estudo_dev\Dio_me\wex_end_to_end_engineering\ExemploFundamentos\ExemploFundamentos\obj\Debug\net9.0\ref\exemploFundamentos.dll
+c:\Users\jefer\OneDrive\Documentos\estudo_dev\Dio_me\wex_end_to_end_engineering\ExemploFundamentos\ExemploFundamentos\obj\Debug\net9.0\ExemploF.DE0ABCBC.Up2Date

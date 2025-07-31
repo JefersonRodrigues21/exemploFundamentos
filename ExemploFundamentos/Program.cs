@@ -7,7 +7,11 @@ arrayInteiros[1] = 15; // Atribuindo valor à segunda posição do array
 arrayInteiros[2] = 80; // Atribuindo valor à terceira posição do array 
 arrayInteiros[3] = 1; // Isso causará um erro de índice fora do intervalo, pois o array só tem 3 posições (0, 1, 2) 
 
-Array.Resize(ref arrayInteiros, arrayInteiros.Length *2); // Redimensionando o array para o dobro de posições
+
+int[] arrayInteirosDobrado = new int[arrayInteiros.Length * 2]; // Declarando um novo array com o dobro de posições
+Array.Copy(arrayInteiros, arrayInteirosDobrado, arrayInteiros.Length);
+
+//Array.Resize(ref arrayInteiros, arrayInteiros.Length * 2); // Redimensionando o array para o dobro de posições
 
 Console.WriteLine("Percorrendo o Array com For:");
 for (int contador = 0; contador < arrayInteiros.Length; contador++)
@@ -16,13 +20,13 @@ for (int contador = 0; contador < arrayInteiros.Length; contador++)
 }
 
 
-// Console.WriteLine("Percorrendo o Array com Foreach:");
-// int contadorForeach = 0;
-// foreach (int valor in arrayInteiros)
-// {
-//     Console.WriteLine($"Posição Nº: {contadorForeach} - {valor}");
-//     contadorForeach++;
-// }
+Console.WriteLine("Percorrendo o Array com Foreach:");
+int contadorForeach = 0;
+foreach (int valor in arrayInteiros)
+{
+    Console.WriteLine($"Posição Nº: {contadorForeach} - {valor}");
+    contadorForeach++;
+}
 
 //-------------------------------------------------------------------------------
 // Pessoa pessoa1 = new() // Instanciando um objeto da classe Pessoa

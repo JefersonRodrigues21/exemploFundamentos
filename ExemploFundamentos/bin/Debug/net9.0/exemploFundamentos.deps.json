@@ -6,12 +6,12 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v9.0": {
-      "exemploFundamentos/1.0.0": {
+      "ExemploFundamentos/1.0.0": {
         "dependencies": {
           "ExemploFundamentos.Common": "1.0.0"
         },
         "runtime": {
-          "exemploFundamentos.dll": {}
+          "ExemploFundamentos.dll": {}
         }
       },
       "ExemploFundamentos.Common/1.0.0": {
@@ -25,7 +25,7 @@
     }
   },
   "libraries": {
-    "exemploFundamentos/1.0.0": {
+    "ExemploFundamentos/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

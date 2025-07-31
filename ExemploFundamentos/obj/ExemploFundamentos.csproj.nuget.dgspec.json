@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jefer\\OneDrive\\Documentos\\estudo_dev\\Dio_me\\wex_end_to_end_engineering\\ExemploFundamentos\\ExemploFundamentos\\exemploFundamentos.csproj": {}
+    "c:\\Users\\jefer\\OneDrive\\Documentos\\estudo_dev\\Dio_me\\wex_end_to_end_engineering\\ExemploFundamentos\\ExemploFundamentos\\ExemploFundamentos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jefer\\OneDrive\\Documentos\\estudo_dev\\Dio_me\\wex_end_to_end_engineering\\ExemploFundamentos\\ExemploFundamentos.Common\\ExemploFundamentos.Common.csproj": {
+    "c:\\Users\\jefer\\OneDrive\\Documentos\\estudo_dev\\Dio_me\\wex_end_to_end_engineering\\ExemploFundamentos\\ExemploFundamentos.Common\\ExemploFundamentos.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jefer\\OneDrive\\Documentos\\estudo_dev\\Dio_me\\wex_end_to_end_engineering\\ExemploFundamentos\\ExemploFundamentos.Common\\ExemploFundamentos.Common.csproj",
+        "projectUniqueName": "c:\\Users\\jefer\\OneDrive\\Documentos\\estudo_dev\\Dio_me\\wex_end_to_end_engineering\\ExemploFundamentos\\ExemploFundamentos.Common\\ExemploFundamentos.Common.csproj",
         "projectName": "ExemploFundamentos.Common",
-        "projectPath": "C:\\Users\\jefer\\OneDrive\\Documentos\\estudo_dev\\Dio_me\\wex_end_to_end_engineering\\ExemploFundamentos\\ExemploFundamentos.Common\\ExemploFundamentos.Common.csproj",
+        "projectPath": "c:\\Users\\jefer\\OneDrive\\Documentos\\estudo_dev\\Dio_me\\wex_end_to_end_engineering\\ExemploFundamentos\\ExemploFundamentos.Common\\ExemploFundamentos.Common.csproj",
         "packagesPath": "C:\\Users\\jefer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jefer\\OneDrive\\Documentos\\estudo_dev\\Dio_me\\wex_end_to_end_engineering\\ExemploFundamentos\\ExemploFundamentos.Common\\obj\\",
+        "outputPath": "c:\\Users\\jefer\\OneDrive\\Documentos\\estudo_dev\\Dio_me\\wex_end_to_end_engineering\\ExemploFundamentos\\ExemploFundamentos.Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jefer\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -63,14 +63,14 @@
         }
       }
     },
-    "C:\\Users\\jefer\\OneDrive\\Documentos\\estudo_dev\\Dio_me\\wex_end_to_end_engineering\\ExemploFundamentos\\ExemploFundamentos\\exemploFundamentos.csproj": {
+    "c:\\Users\\jefer\\OneDrive\\Documentos\\estudo_dev\\Dio_me\\wex_end_to_end_engineering\\ExemploFundamentos\\ExemploFundamentos\\ExemploFundamentos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jefer\\OneDrive\\Documentos\\estudo_dev\\Dio_me\\wex_end_to_end_engineering\\ExemploFundamentos\\ExemploFundamentos\\exemploFundamentos.csproj",
-        "projectName": "exemploFundamentos",
-        "projectPath": "C:\\Users\\jefer\\OneDrive\\Documentos\\estudo_dev\\Dio_me\\wex_end_to_end_engineering\\ExemploFundamentos\\ExemploFundamentos\\exemploFundamentos.csproj",
+        "projectUniqueName": "c:\\Users\\jefer\\OneDrive\\Documentos\\estudo_dev\\Dio_me\\wex_end_to_end_engineering\\ExemploFundamentos\\ExemploFundamentos\\ExemploFundamentos.csproj",
+        "projectName": "ExemploFundamentos",
+        "projectPath": "c:\\Users\\jefer\\OneDrive\\Documentos\\estudo_dev\\Dio_me\\wex_end_to_end_engineering\\ExemploFundamentos\\ExemploFundamentos\\ExemploFundamentos.csproj",
         "packagesPath": "C:\\Users\\jefer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jefer\\OneDrive\\Documentos\\estudo_dev\\Dio_me\\wex_end_to_end_engineering\\ExemploFundamentos\\ExemploFundamentos\\obj\\",
+        "outputPath": "c:\\Users\\jefer\\OneDrive\\Documentos\\estudo_dev\\Dio_me\\wex_end_to_end_engineering\\ExemploFundamentos\\ExemploFundamentos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jefer\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -85,8 +85,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\jefer\\OneDrive\\Documentos\\estudo_dev\\Dio_me\\wex_end_to_end_engineering\\ExemploFundamentos\\ExemploFundamentos.Common\\ExemploFundamentos.Common.csproj": {
-                "projectPath": "C:\\Users\\jefer\\OneDrive\\Documentos\\estudo_dev\\Dio_me\\wex_end_to_end_engineering\\ExemploFundamentos\\ExemploFundamentos.Common\\ExemploFundamentos.Common.csproj"
+              "c:\\Users\\jefer\\OneDrive\\Documentos\\estudo_dev\\Dio_me\\wex_end_to_end_engineering\\ExemploFundamentos\\ExemploFundamentos.Common\\ExemploFundamentos.Common.csproj": {
+                "projectPath": "c:\\Users\\jefer\\OneDrive\\Documentos\\estudo_dev\\Dio_me\\wex_end_to_end_engineering\\ExemploFundamentos\\ExemploFundamentos.Common\\ExemploFundamentos.Common.csproj"
               }
             }
           }
