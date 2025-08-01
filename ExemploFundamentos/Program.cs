@@ -1,32 +1,59 @@
 ﻿using ExemploFundamentos.Common.Models;
 
+List<string> listaString = new List<string>(); // Declaração de uma lista de strings
 
-int[] arrayInteiros = new int[4]; // Declaração de um array de inteiros com 3 posições
-arrayInteiros[0] = 10; // Atribuindo valor à primeira posição do array
-arrayInteiros[1] = 15; // Atribuindo valor à segunda posição do array
-arrayInteiros[2] = 80; // Atribuindo valor à terceira posição do array 
-arrayInteiros[3] = 1; // Isso causará um erro de índice fora do intervalo, pois o array só tem 3 posições (0, 1, 2) 
+listaString.Add("SP"); // Adicionando um item à lista
+listaString.Add("BA");
+listaString.Add("MG");
+listaString.Add("RJ");
+
+Console.WriteLine($"Itens na minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}"); // Exibindo a quantidade de itens na lista
+listaString.Add("SC"); // Adicionando mais um item à lista
+Console.WriteLine($"Itens na minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}"); // Exibindo a quantidade de itens na lista após adicionar mais um item
+listaString.Remove("MG"); // Removendo um item da lista
+Console.WriteLine($"Itens na minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}"); // Exibindo a quantidade de itens na lista após adicionar mais um item
+
+// Console.WriteLine("Percorrendo a lista com FOR:");
+// for (int contador = 0; contador < listaString.Count; contador++)
+// {
+//     Console.WriteLine($"Posição Nº {contador} - {listaString[contador]}");
+// }
+
+// Console.WriteLine("Percorrendo a lista com FOREACH:");
+// int contadorForeach = 0;
+// foreach (string item in listaString)
+// {
+//     Console.WriteLine($"Posição Nº {contadorForeach} - {item}");
+//     contadorForeach++;
+// }
+
+//-------------------------------------------------------------------------------------------------------------
+// int[] arrayInteiros = new int[4]; // Declaração de um array de inteiros com 3 posições
+// arrayInteiros[0] = 10; // Atribuindo valor à primeira posição do array
+// arrayInteiros[1] = 15; // Atribuindo valor à segunda posição do array
+// arrayInteiros[2] = 80; // Atribuindo valor à terceira posição do array 
+// arrayInteiros[3] = 1; // Isso causará um erro de índice fora do intervalo, pois o array só tem 3 posições (0, 1, 2) 
 
 
-int[] arrayInteirosDobrado = new int[arrayInteiros.Length * 2]; // Declarando um novo array com o dobro de posições
-Array.Copy(arrayInteiros, arrayInteirosDobrado, arrayInteiros.Length);
+// int[] arrayInteirosDobrado = new int[arrayInteiros.Length * 2]; // Declarando um novo array com o dobro de posições
+// Array.Copy(arrayInteiros, arrayInteirosDobrado, arrayInteiros.Length);
 
-//Array.Resize(ref arrayInteiros, arrayInteiros.Length * 2); // Redimensionando o array para o dobro de posições
+// //Array.Resize(ref arrayInteiros, arrayInteiros.Length * 2); // Redimensionando o array para o dobro de posições
 
-Console.WriteLine("Percorrendo o Array com For:");
-for (int contador = 0; contador < arrayInteiros.Length; contador++)
-{
-    Console.WriteLine($"Posição Nº {contador} - {arrayInteiros[contador]}");
-}
+// Console.WriteLine("Percorrendo o Array com For:");
+// for (int contador = 0; contador < arrayInteiros.Length; contador++)
+// {
+//     Console.WriteLine($"Posição Nº {contador} - {arrayInteiros[contador]}");
+// }
 
 
-Console.WriteLine("Percorrendo o Array com Foreach:");
-int contadorForeach = 0;
-foreach (int valor in arrayInteiros)
-{
-    Console.WriteLine($"Posição Nº: {contadorForeach} - {valor}");
-    contadorForeach++;
-}
+// Console.WriteLine("Percorrendo o Array com Foreach:");
+// int contadorForeach = 0;
+// foreach (int valor in arrayInteiros)
+// {
+//     Console.WriteLine($"Posição Nº: {contadorForeach} - {valor}");
+//     contadorForeach++;
+// }
 
 //-------------------------------------------------------------------------------
 // Pessoa pessoa1 = new() // Instanciando um objeto da classe Pessoa
