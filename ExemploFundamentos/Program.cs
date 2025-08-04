@@ -1,17 +1,41 @@
 ﻿using ExemploFundamentos.Common.Models;
 
-List<string> listaString = new List<string>(); // Declaração de uma lista de strings
+// Instancia da classe Pessoa
+Pessoa p = new()
+{
+    /*
+   Atribuição de valores às propriedades Nome e Idade
+   */
+    Nome = "Jeferson",
+    Idade = 38
+};
 
-listaString.Add("SP"); // Adicionando um item à lista
-listaString.Add("BA");
-listaString.Add("MG");
-listaString.Add("RJ");
+//Faz a pessoa se aprsentar
+p.Apresentar();
 
-Console.WriteLine($"Itens na minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}"); // Exibindo a quantidade de itens na lista
-listaString.Add("SC"); // Adicionando mais um item à lista
-Console.WriteLine($"Itens na minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}"); // Exibindo a quantidade de itens na lista após adicionar mais um item
-listaString.Remove("MG"); // Removendo um item da lista
-Console.WriteLine($"Itens na minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}"); // Exibindo a quantidade de itens na lista após adicionar mais um item
+Calculadora c = new Calculadora();
+c.Somar(3, 5);
+c.Subtract(3, 5);
+
+//----------------------------------------------------------------------------------------------------------------------
+
+// List<string> listaString = new List<string>(); // Declaração de uma lista de strings
+
+// listaString.Add("SP"); // Adicionando um item à lista
+// listaString.Add("BA");
+// listaString.Add("MG");
+// listaString.Add("RJ");
+
+// /// <summary>
+// /// Descrição do que a classe ou método faz,
+// /// </summary>
+// Console.WriteLine($"Itens na minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}"); // Exibindo a quantidade de itens na lista
+// listaString.Add("SC"); // Adicionando mais um item à lista
+// Console.WriteLine($"Itens na minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}"); // Exibindo a quantidade de itens na lista após adicionar mais um item
+// listaString.Remove("MG"); // Removendo um item da lista
+// Console.WriteLine($"Itens na minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}"); // Exibindo a quantidade de itens na lista após adicionar mais um item
+
+//---------------------------------------------------------------------------------------------------------------------------------------------------
 
 // Console.WriteLine("Percorrendo a lista com FOR:");
 // for (int contador = 0; contador < listaString.Count; contador++)

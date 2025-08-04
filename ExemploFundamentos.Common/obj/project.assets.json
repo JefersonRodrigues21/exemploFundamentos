@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jefer\\OneDrive\\Documentos\\estudo_dev\\Dio_me\\wex_end_to_end_engineering\\exemploFundamentos\\ExemploFundamentos.Common\\ExemploFundamentos.Common.csproj",
+      "projectUniqueName": "C:\\Users\\jefer\\OneDrive\\Documentos\\estudo_dev\\Dio_me\\wex_end_to_end_engineering\\ExemploFundamentos\\ExemploFundamentos.Common\\ExemploFundamentos.Common.csproj",
       "projectName": "ExemploFundamentos.Common",
-      "projectPath": "C:\\Users\\jefer\\OneDrive\\Documentos\\estudo_dev\\Dio_me\\wex_end_to_end_engineering\\exemploFundamentos\\ExemploFundamentos.Common\\ExemploFundamentos.Common.csproj",
+      "projectPath": "C:\\Users\\jefer\\OneDrive\\Documentos\\estudo_dev\\Dio_me\\wex_end_to_end_engineering\\ExemploFundamentos\\ExemploFundamentos.Common\\ExemploFundamentos.Common.csproj",
       "packagesPath": "C:\\Users\\jefer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jefer\\OneDrive\\Documentos\\estudo_dev\\Dio_me\\wex_end_to_end_engineering\\exemploFundamentos\\ExemploFundamentos.Common\\obj\\",
+      "outputPath": "C:\\Users\\jefer\\OneDrive\\Documentos\\estudo_dev\\Dio_me\\wex_end_to_end_engineering\\ExemploFundamentos\\ExemploFundamentos.Common\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jefer\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -65,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
